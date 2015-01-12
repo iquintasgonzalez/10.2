@@ -1,4 +1,3 @@
-//Write by Seijas
 package boletin10.pkg02;
 
 import javax.swing.JOptionPane;
@@ -9,7 +8,10 @@ public class JuegoRandom {
     public JuegoRandom(){
         valorA = (int) (Math.random()*51);
     }
-    
+    /**
+     * Descripcion Metodo del juego
+     * 
+     */
     public void xogo(){
         int contador = 0;
         int dato = -1;
@@ -46,5 +48,3 @@ public class JuegoRandom {
         }
     }
 }
-//Created by Seijas
-//For all my fans
